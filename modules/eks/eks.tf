@@ -15,7 +15,7 @@ locals {
 
 module "eks" {
   source  = "terraform-aws-modules/eks/aws"
-  version = "17.24.0"
+  version = "19.15.3"
 
   cluster_encryption_config = [
     {
